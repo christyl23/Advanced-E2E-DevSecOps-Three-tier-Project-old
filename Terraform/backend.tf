@@ -18,7 +18,7 @@ terraform {
 
     bucket = "project2-ete"
 
-    key = "state/terraform.tfstate"
+    key = "state/backend"
 
     region = "us-east-1"
 
