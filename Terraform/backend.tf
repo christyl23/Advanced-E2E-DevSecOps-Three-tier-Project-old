@@ -24,7 +24,7 @@ terraform {
 
     encrypt = true
 
-    dynamodb_table = "project2"
+    dynamodb_table = "Music"
 
   }
 

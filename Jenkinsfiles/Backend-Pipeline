@@ -21,7 +21,7 @@ pipeline {
         
         stage('Checkout Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/MohamedZezo7/Advanced-E2E-DevSecOps-Three-tier-Project.git'
+                git branch: 'main', url: 'https://github.com/christyl23/Advanced-E2E-DevSecOps-Three-tier-Project.git'
             }
         }
         
@@ -92,7 +92,7 @@ pipeline {
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "Advanced-E2E-DevSecOps-Three-tier-Project "
-                GIT_USER_NAME = "MohamedZezo7"
+                GIT_USER_NAME = "christyl23"
             }
             steps {
                 dir('Kubernetes-Manifests-file/Backend') {
