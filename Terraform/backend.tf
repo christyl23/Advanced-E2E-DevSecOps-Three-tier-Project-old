@@ -16,7 +16,7 @@ terraform {
 
   backend "s3" {
 
-    bucket = "kops-s3-new"
+    bucket = "three-tier24"
 
     key = "state/backend"
 
