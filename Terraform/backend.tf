@@ -16,7 +16,7 @@ terraform {
 
   backend "s3" {
 
-    bucket = "project2-ete"
+    bucket = "kops-s3-new"
 
     key = "state/backend"
 
@@ -24,7 +24,7 @@ terraform {
 
     encrypt = true
 
-    dynamodb_table = "Music"
+    dynamodb_table = "orders"
 
   }
 
