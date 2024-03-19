@@ -7,7 +7,7 @@ CONFIG_FILE="/etc/nginx/sites-available/$DOMAIN"
 # Create Nginx configuration file
 sudo tee "$CONFIG_FILE" > /dev/null <<'EOL'
 upstream jenkins{
-    server 127.0.0.1:8080;
+    server 54.163.24.34:8080;
 }
 
 server{
