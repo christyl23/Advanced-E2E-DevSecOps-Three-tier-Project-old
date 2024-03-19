@@ -18,7 +18,7 @@ terraform {
 
     bucket = "three-tier24"
 
-    key = "state/terraform.tfstate"
+    key = "state/backend"
 
     region = "us-east-1"
 
