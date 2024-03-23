@@ -1,10 +1,10 @@
 upstream jenkins{
-    server 54.163.24.34:8080;
+    server 107.21.79.176:8080;
 }
 
 server{
     listen      80;
-    server_name myjenkins.christyldops;
+    server_name app1-jenkins.duckdns.org;
 
     access_log  /var/log/nginx/jenkins.access.log;
     error_log   /var/log/nginx/jenkins.error.log;
