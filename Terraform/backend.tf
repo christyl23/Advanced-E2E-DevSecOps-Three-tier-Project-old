@@ -16,9 +16,9 @@ terraform {
 
   backend "s3" {
 
-    bucket = "advanced-end-to-end-s3"
+    bucket = "advanced-end-to-end-devsecops"
 
-    key = "state/terraform.tfstate"
+    key = "state/backend"
 
     region = "us-east-1"
 

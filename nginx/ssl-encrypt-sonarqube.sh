@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Replace with your desired domain and file path
-DOMAIN="app-sonarqube.duckdns.org"
+DOMAIN="my-sonar.duckdns.org"
 CONFIG_FILE="/etc/nginx/sites-available/$DOMAIN"
 
 # Create Nginx configuration file
@@ -12,7 +12,7 @@ upstream sonarqube{
 
 server{
     listen      80;
-    server_name app-sonarqube.duckdns.org;
+    server_name my-sonar.duckdns.org;
 
     access_log  /var/log/nginx/sonarqube.access.log;
     error_log   /var/log/nginx/sonarqube.error.log;
@@ -21,7 +21,7 @@ server{
     proxy_buffer_size 128k;
 
     location / {
-        proxy_pass  http://sonarqube;
+        proxy_pass  http://localhost:9000;
         proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
         proxy_redirect off;
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Replace with your desired domain and file path
-DOMAIN="app-jenkins.duckdns.org"
+DOMAIN="app1-jenkins.duckdns.org"
 CONFIG_FILE="/etc/nginx/sites-available/$DOMAIN"
 
 # Create Nginx configuration file
@@ -12,7 +12,7 @@ upstream jenkins{
 
 server{
     listen      80;
-    server_name app-jenkins.duckdns.org;
+    server_name app1-jenkins.christyldops.com;
 
     access_log  /var/log/nginx/jenkins.access.log;
     error_log   /var/log/nginx/jenkins.error.log;
