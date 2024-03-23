@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Replace with your desired domain and file path
-DOMAIN="myjenkins.christyldops.com"
+DOMAIN="app1-jenkins.duchdns.org"
 CONFIG_FILE="/etc/nginx/sites-available/$DOMAIN"
 
 # Create Nginx configuration file
