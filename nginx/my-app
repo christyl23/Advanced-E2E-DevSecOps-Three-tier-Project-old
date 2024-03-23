@@ -3,7 +3,7 @@ upstream myapp{
 }
 
 server{
-    server_name my-app.christyldops.com;
+    server_name my-app.duckdns.org;
 
     access_log  /var/log/nginx/app.access.log;
     error_log   /var/log/nginx/app.error.log;
@@ -33,7 +33,7 @@ server{
 
 
 server{
-    if ($host = mineapp.duckdns.org) {
+    if ($host = my-app.duckdns.org) {
         return 301 https://$host$request_uri;
     } # managed by Certbot
 
