@@ -16,11 +16,7 @@ terraform {
 
   backend "s3" {
 
-<<<<<<< HEAD
-    bucket = "advanced-end-to-end-s333"
-=======
     bucket = "advanced-end-to-end-devops"
->>>>>>> d8aaaeea4b71afc923015e9dfe45f2fc6b42de3b
 
     key = "state/backend"
 
