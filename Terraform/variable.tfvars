@@ -1,6 +1,6 @@
 vpc-name      = "Jenkins-vpc"
 igw-name      = "Jenkins-igw"
-ami           = "ami-07d9b9ddc6cd8dd30"
+ami           = "ami-08116b9957a259459"
 subnet-name   = "Jenkins-subnet"
 rt-name       = "Jenkins-route-table"
 sg-name       = "Jenkins-sg"
