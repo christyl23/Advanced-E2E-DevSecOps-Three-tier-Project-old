@@ -95,8 +95,8 @@ pipeline {
                     withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
                         script {
                             sh '''
-                            git config user.email "ziradevops@gmail.com"
-                            git config user.name "Ezenwanyi Obinigwe"
+                            git config user.email "christylhcares@gmail.com"
+                            git config user.name "Ada Jesus"
                             BUILD_NUMBER=${BUILD_NUMBER}
                             echo $BUILD_NUMBER
                             imageTag=$(grep -oP '(?<=frontend:)[^ ]+' deployment.yaml)
@@ -121,7 +121,7 @@ pipeline {
                     body: "Project: ${env.JOB_NAME}<br/>" +
                         "Build Number: ${env.BUILD_NUMBER}<br/>" +
                         "URL: ${env.BUILD_URL}<br/>",
-                    to: 'ziradevops@gmail.com',
+                    to: 'christylhcares@gmail.com',
                     attachmentsPattern: 'trivyfs-frontend*.txt, trivyimage*.txt'
             }
         }
