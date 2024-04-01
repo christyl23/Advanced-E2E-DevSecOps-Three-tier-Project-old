@@ -12,11 +12,11 @@ SUBNET_ID_1="subnet-03eb2df93159b54ce"
 SUBNET_ID_2="subnet-097cc554b69d50e63"
 
 # Roles ARN
-CLUSTER_ROLE_ARN="arn:aws:iam::490108295743:role/My-Cluster-Role"
-NODE_ROLE_ARN="arn:aws:iam::490108295743:role/NodeGroupIAM"
+CLUSTER_ROLE_ARN="arn:aws:iam::211125693531:role/My-Cluster-Role"
+NODE_ROLE_ARN="arn:aws:iam::211125693531:role/NodeGroupIAM"
 
 # Set Security Group ID
-SECURITY_ID="sg-039ee5905cc775085"
+SECURITY_ID="sg-0dc95a6ebb209050d"
 
 # Set the instance type for worker nodes
 INSTANCE_TYPE="t2.small"
