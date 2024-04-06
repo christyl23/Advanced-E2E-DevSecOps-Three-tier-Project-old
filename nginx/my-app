@@ -3,7 +3,7 @@ upstream myapp{
 }
 
 server{
-    server_name my-app1.christyldops.com;
+    server_name my-app.christyldops.com;
 
     access_log  /var/log/nginx/app.access.log;
     error_log   /var/log/nginx/app.error.log;
