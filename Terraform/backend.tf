@@ -18,7 +18,7 @@ terraform {
 
     bucket = "ce2e-s3"
 
-    key = "state/backend"
+    key = "state/terraform.tfstate"
 
     region = "us-west-2"
 
