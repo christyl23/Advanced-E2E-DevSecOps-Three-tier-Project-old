@@ -24,7 +24,7 @@ terraform {
 
     encrypt = true
 
-    dynamodb_table = "Projects"
+    dynamodb_table = "orders"
 
   }
 
