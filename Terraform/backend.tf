@@ -16,7 +16,7 @@ terraform {
 
   backend "s3" {
 
-    bucket = "ce2e-s3"
+    bucket = "e2e-s3-new"
 
     key = "state/terraform.tfstate"
 
@@ -24,7 +24,7 @@ terraform {
 
     encrypt = true
 
-    dynamodb_table = "orders"
+    dynamodb_table = "Projects"
 
   }
 
